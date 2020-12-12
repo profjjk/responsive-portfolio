@@ -1,0 +1,14 @@
+/* HEADER */
+header nav {
+    padding: 10px 40px;
+    background: #fff;
+}
+
+header nav #name {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background: #20B2AA;
+    padding: 5px 20px;
+}
