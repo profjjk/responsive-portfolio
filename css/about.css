@@ -15,15 +15,16 @@ header nav #name {
 
 /***** MAIN SECTION *****/
 main {
-    height: 700px;
+    /* height: 700px; */
     background: lightgray;
+    padding: 6% 2% 4% 4%;
 }
 
-main article.col-lg-7 {
-    height: 500px;
+main article {
+    /* height: 500px; */
     background: #fff;
-    margin: 100px 0 0 80px;
-    padding: 20px;
+    margin-left: 4%;
+    padding: 2%;
 }
 
 h1 {
@@ -32,12 +33,12 @@ h1 {
 }
 
 img {
-    margin: 10px 30px 10px 0;
+    margin: 2% 4% 2% 0;
     float: left;
 }
 
 p {
-    padding: 10px 20px 0 0;
+    margin: 3% 2% 2% 0;
 }
 
 /***** FOOTER SECTION *****/
