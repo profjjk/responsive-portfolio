@@ -10,18 +10,17 @@ header nav #name {
     font-weight: 600;
     color: #fff;
     background: #20B2AA;
+    border-radius: 4px;
     padding: 1% 2%;
 }
 
 /***** MAIN SECTION *****/
 main {
-    /* height: 700px; */
     background: lightgray;
     padding: 6% 2% 4% 4%;
 }
 
 main article.col-xxl-8 {
-    /* height: 500px; */
     background: #fff;
     margin-left: 4%;
     padding: 4%;
