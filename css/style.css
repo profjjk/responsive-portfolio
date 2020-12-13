@@ -1,0 +1,51 @@
+/***** HEADER SECTION *****/
+header nav {
+    padding: 1% 2%;
+    background: #fff;
+}
+
+header nav #name {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background: #20B2AA;
+    padding: 1% 2%;
+}
+
+/***** MAIN SECTION *****/
+main {
+    /* height: 700px; */
+    background: lightgray;
+    padding: 6% 2% 4% 4%;
+}
+
+main article.col-xxl-8 {
+    /* height: 500px; */
+    background: #fff;
+    margin-left: 4%;
+    padding: 4%;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #20B2AA;
+}
+
+/***** FOOTER SECTION *****/
+footer #green-bar {
+    height: 0.5em;
+    background: #20B2AA;
+}
+
+footer #gray-bar {
+    height: 3em;
+    background: darkgray;
+}
+
+/* SMALL SCREENS */
+@media (max-width: 576px) {
+    main article.col-xxl-8 {
+        max-width: 90%;
+    }
+}

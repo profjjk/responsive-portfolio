@@ -51,12 +51,27 @@
     <!-- Main content -->
     <main class="container">
         <section class="row">
-            <article class="col-lg-7">
+            <article class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-sm-11">
                 <!-- Main header -->
                 <h1>Contact</h1>
                 <hr>
                 <!-- Contact form -->
-                
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">Name</label>
+                        <input type="Name" class="form-control" id="exampleInputName1" 
+                        aria-describedby="nameHelp" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>              
             </article>
         </section>
     </main>

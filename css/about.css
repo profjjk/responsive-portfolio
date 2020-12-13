@@ -1,53 +1,8 @@
-/***** HEADER SECTION *****/
-header nav {
-    padding: 10px 40px;
-    background: #fff;
-}
-
-header nav #name {
-    font-family: 'Merriweather', serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-    background: #20B2AA;
-    padding: 5px 20px;
-}
-
-/***** MAIN SECTION *****/
-main {
-    /* height: 700px; */
-    background: lightgray;
-    padding: 6% 2% 4% 4%;
-}
-
-main article {
-    /* height: 500px; */
-    background: #fff;
-    margin-left: 4%;
-    padding: 2%;
-}
-
-h1 {
-    font-family: 'Merriweather', serif;
-    color: #20B2AA;
-}
-
 img {
-    margin: 2% 4% 2% 0;
+    margin: 2% 3% 1% 0;
     float: left;
 }
 
 p {
-    margin: 3% 2% 2% 0;
-}
-
-/***** FOOTER SECTION *****/
-footer #green-bar {
-    height: 5px;
-    background: #20B2AA;
-}
-
-footer #gray-bar {
-    height: 50px;
-    background: darkgray;
+    margin: 3% 0 2% 0;
 }
