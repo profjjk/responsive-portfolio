@@ -11,7 +11,6 @@
 
         <!-- My stylesheets -->
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="css/about.css" rel="stylesheet" type="text/css"/>
 
         <!-- Google font links -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -34,6 +33,7 @@
                     </button>
                     <!-- Nav links -->
                     <div class="collapse navbar-collapse" id="navbarNav">
+                        <!-- Auto margin left -->
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -42,6 +42,7 @@
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
+                            <!-- This link active -->
                             <a class="nav-link active" href="about.html" tabindex="-1" aria-disabled="true">About</a>
                             </li>
                         </ul>
@@ -54,17 +55,21 @@
     <!-- Main content -->
     <main class="container">
         <section class="row">
+            <!-- Column sizes for various breakpoints -->
             <article class="col-xxl-8 col-xl-9 col-lg-10 col-md-11 col-sm-11 rounded">
                 <!-- Main header -->
                 <h1>About Me</h1>
                 <hr>
                 <!-- Portrait photo -->
-                <img src="https://placeimg.com/200/200/tech" class="img-fluid rounded" alt="Random Images"/>
+                <!-- Fluid container, rounded corners, float left, margin right, image size -->
+                <img src="images/mt-tam.png" class="img-fluid rounded float-start me-3" style="width: 200px; height: 200px" alt="Random Images"/>
                 <!-- About me info -->
-                <p>
+                <!-- Auto margins left and right -->
+                <p class="mx-auto">
                     Minim exercitation sunt labore ipsum non laborum enim et pariatur tempor irure qui. Consectetur do ad occaecat dolor Lorem elit irure. Laborum nulla qui nisi minim do non eiusmod incididunt voluptate est. Irure adipisicing elit veniam laboris proident incididunt cillum esse consequat ut eiusmod.
                 </p>
-                <p>
+                <!-- Auto margins left and right -->
+                <p class="mx-auto">
                     Quis in consequat consequat esse dolor laboris aliquip commodo cillum. Minim esse pariatur cillum officia ad qui fugiat sit eiusmod officia nisi qui Lorem consequat. Est proident nostrud consequat culpa cupidatat sint consectetur elit consectetur aute cupidatat qui consequat. Enim excepteur eu esse tempor cupidatat excepteur consectetur in. Laboris commodo non nostrud ullamco ut culpa cillum do excepteur anim nisi commodo. Cupidatat duis nulla consectetur nulla. Deserunt cupidatat dolor excepteur sint laboris commodo.
                 </p>
             </article>
