@@ -1,6 +1,5 @@
 /***** HEADER SECTION *****/
 header nav {
-    padding: 1% 2%;
     background: #fff;
 }
 
@@ -12,6 +11,7 @@ header nav #name {
     background: #20B2AA;
     border-radius: 4px;
     padding: 1% 2%;
+    margin-left: 2%;
 }
 
 /***** MAIN SECTION *****/

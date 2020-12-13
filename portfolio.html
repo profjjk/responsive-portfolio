@@ -23,30 +23,32 @@
   <body>
     <!-- Site navigation -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <!-- Name -->
-                <a class="navbar-brand" id="name" href="about.html">Jordan Kelly</a>
-                <!-- Button for collapsed nav links -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Nav links -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="true">About</a>
-                        </li>
-                    </ul>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- Name -->
+                    <a class="navbar-brand" id="name" href="about.html">Jordan Kelly</a>
+                    <!-- Button for collapsed nav links -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Nav links -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="true">About</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <!-- Main content -->
@@ -57,19 +59,31 @@
                 <h1>Portfolio</h1>
                 <hr>
                 <!-- Portfolio photos -->
-                <div class="col-12">
-                    <a href="#">
-                    <img class="img-fluid rounded" src="https://placeimg.com/200/200/tech" alt="Random Images"/></a>
-                    <a href="#">
-                    <img class="img-fluid rounded" src="https://placeimg.com/200/200/grayscale" alt="Random Images"/></a>
-                    <a href="#">
-                    <img class="img-fluid rounded" src="https://placeimg.com/200/200/nature" alt="Random Images"/></a>
-                    <a href="#">
-                    <img class="img-fluid rounded" src="https://placeimg.com/200/200/people" alt="Random Images"/></a>
-                    <a href="#">
-                    <img class="img-fluid rounded" src="https://placeimg.com/200/200/animals" alt="Random Images"/></a>
-                    <a href="#">
-                    <img class="img-fluid rounded" src="https://placeimg.com/200/200/sepia" alt="Random Images"/></a>
+                <div class="row gy-4">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex justify-content-evenly">
+                        <a href="#">
+                        <img class="img-fluid rounded" src="https://placeimg.com/200/200/tech" alt="Random Images"/></a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex justify-content-evenly">
+                        <a href="#">
+                        <img class="img-fluid rounded" src="https://placeimg.com/200/200/grayscale" alt="Random Images"/></a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex justify-content-evenly">
+                        <a href="#">
+                        <img class="img-fluid rounded" src="https://placeimg.com/200/200/nature" alt="Random Images"/></a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex justify-content-evenly">
+                        <a href="#">
+                        <img class="img-fluid rounded" src="https://placeimg.com/200/200/people" alt="Random Images"/></a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex justify-content-evenly">
+                        <a href="#">
+                        <img class="img-fluid rounded" src="https://placeimg.com/200/200/animals" alt="Random Images"/></a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex justify-content-evenly">
+                        <a href="#">
+                        <img class="img-fluid rounded" src="https://placeimg.com/200/200/sepia" alt="Random Images"/></a>
+                    </div>
                 </div>
             </article>
         </section>
