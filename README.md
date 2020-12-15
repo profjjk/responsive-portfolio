@@ -45,6 +45,6 @@ Image thumbnails that automatically line up and adjust to the screen.
 
 
 ## Screenshots
-![About Me Page](images/about-me.png)
+![About Me Page](images/about.png)
 ![Portfolio Page](images/portfolio.png)
 ![Contact Page](images/contact.png)
