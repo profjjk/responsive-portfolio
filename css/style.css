@@ -35,11 +35,13 @@ h1 {
 footer #green-bar {
     height: 0.5em;
     background: #20B2AA;
+    width: 100%;
 }
 
 footer #gray-bar {
     height: 3em;
     background: darkgray;
+    width: 100%;
 }
 
 /* SMALL SCREENS */
