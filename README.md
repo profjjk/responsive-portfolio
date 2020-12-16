@@ -5,6 +5,7 @@
 * [Technologies Used](##technologies-used)
 * [Example Code](##example-code)
 * [How to Access](##how-to-access)
+* [About Me](##about-me)
 * [Screenshots](##screenshots)
 ---
 
