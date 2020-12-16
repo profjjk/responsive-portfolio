@@ -43,6 +43,9 @@ Image thumbnails that automatically line up and adjust to the screen.
 ## How to Access
 [Jordan's Responsive Portfolio Website](https://profjjk.github.io/responsive-portfolio/)
 
+## About Me
+* [LinkedIn](https://www.linkedin.com/in/jordan-kelly-3934a597/)
+* [GitHub](https://github.com/profjjk)
 
 ## Screenshots
 ![About Me Page](images/about-me.png)
